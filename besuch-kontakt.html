@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="de" class="no-js">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Besuch &amp; Kontakt – Atelier Hendricks Konstanz</title>
+<meta name="description" content="Adresse, Öffnungszeiten und Kontaktmöglichkeiten des Atelier Hendricks in Konstanz. Atelierbesuch, Werk- oder Ausstellungsanfrage direkt stellen.">
+<link rel="canonical" href="https://atelier-hendricks.aurora-innovations.de/besuch-kontakt.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Besuch &amp; Kontakt – Atelier Hendricks">
+<meta name="theme-color" content="#222321">
+<link rel="icon" href="assets/logo/atelier-hendricks_logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Zum Inhalt springen</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="index.html" aria-label="Atelier Hendricks – Startseite">
+      <img src="assets/logo/atelier-hendricks_logo.svg" alt="Atelier Hendricks">
+    </a>
+    <nav class="main-nav" id="main-nav" aria-label="Hauptnavigation">
+      <ul>
+        <li><a href="index.html">Start</a></li>
+        <li><a href="susanne-hendricks.html">Susanne</a></li>
+        <li><a href="rainer-hendricks.html">Rainer</a></li>
+        <li><a href="ausstellungen.html">Ausstellungen</a></li>
+        <li><a href="atelier.html">Das Atelier</a></li>
+        <li><a href="presse.html">Presse</a></li>
+        <li><a href="besuch-kontakt.html" aria-current="page">Kontakt</a></li>
+      </ul>
+      <a class="btn btn-primary nav-cta" href="#anfrage">Besuch anfragen</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Menü öffnen" aria-expanded="false" aria-controls="main-nav"></button>
+  </div>
+</header>
+
+<main id="main">
+  <section class="page-hero">
+    <div class="container">
+      <p class="breadcrumb"><a href="index.html">Start</a> / Besuch &amp; Kontakt</p>
+      <span class="eyebrow">Besuch &amp; Kontakt</span>
+      <h1>Besuchen Sie das Atelier</h1>
+      <p class="lead">Zu den Öffnungszeiten oder nach Anmeldung sind Sie im Atelier Hendricks in Konstanz willkommen.</p>
+    </div>
+  </section>
+
+  <section aria-labelledby="fakten-heading">
+    <div class="container contact-grid">
+      <div>
+        <h2 id="fakten-heading">Adresse &amp; Öffnungszeiten</h2>
+        <ul class="fact-list">
+          <li><span class="fact-label">Adresse</span><span>Atelier Hendricks<br>Lohnerhofstraße 9<br>78467 Konstanz</span></li>
+          <li><span class="fact-label">Öffnungszeiten</span><span>Montag – Freitag<br>10:00–12:00 Uhr &amp; 14:00–18:00 Uhr<br>sowie nach Vereinbarung</span></li>
+          <li><span class="fact-label">Telefon</span><span><a href="tel:+497531 3613886">+49 7531 3613886</a></span></li>
+          <li><span class="fact-label">E-Mail</span><span><a href="mailto:art@atelier-hendricks.de">art@atelier-hendricks.de</a></span></li>
+          <li><span class="fact-label">Barrierefreiheit</span><span>nicht auffindbar – offene Frage an den Auftraggeber</span></li>
+        </ul>
+        <a class="btn btn-secondary" href="https://www.google.com/maps/search/?api=1&query=Atelier+Hendricks+Lohnerhofstra%C3%9Fe+9+78467+Konstanz" target="_blank" rel="noopener">In Google Maps öffnen</a>
+      </div>
+
+      <div>
+        <h2 class="visually-hidden">Anfahrt</h2>
+        <div class="map-embed" id="map-embed">
+          <div class="map-placeholder">
+            <p>Die interaktive Karte wird erst nach Ihrer Zustimmung geladen (Datenschutz). Anschließend überträgt Google Daten gemäß eigener Datenschutzerklärung.</p>
+            <button class="btn btn-primary" id="load-map-btn" type="button">Karte laden</button>
+          </div>
+        </div>
+        <p class="form-note">Für die eingebettete Karte wird ein Google-Maps-API-Schlüssel benötigt. Platzhalter: <code>YOUR_GOOGLE_MAPS_API_KEY</code> in <code>js/map-consent.js</code> (Konstante <code>GOOGLE_MAPS_API_KEY</code>) ersetzen.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-alt" id="anfrage" aria-labelledby="anfrage-heading">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Anfrage</span>
+        <h2 id="anfrage-heading">Atelierbesuch, Werk, Ausstellung oder Kooperation anfragen</h2>
+        <p>Dies ist eine Entwurfsversion des Formulars. Es ist technisch noch nicht an ein E-Mail-Postfach oder einen Formular-Dienst angebunden.</p>
+      </div>
+      <form class="contact-form" action="#" method="post">
+        <div class="form-two">
+          <div class="form-row">
+            <label for="name">Name *</label>
+            <input type="text" id="name" name="name" required autocomplete="name">
+          </div>
+          <div class="form-row">
+            <label for="email">E-Mail *</label>
+            <input type="email" id="email" name="email" required autocomplete="email">
+          </div>
+        </div>
+        <div class="form-row">
+          <label for="grund">Grund der Anfrage *</label>
+          <select id="grund" name="grund" required>
+            <option value="">Bitte wählen</option>
+            <option value="atelierbesuch">Atelierbesuch</option>
+            <option value="werk">Werk anfragen</option>
+            <option value="ausstellung">Ausstellung</option>
+            <option value="kooperation">Kooperation besprechen</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="nachricht">Nachricht *</label>
+          <textarea id="nachricht" name="nachricht" rows="5" required></textarea>
+        </div>
+        <div class="form-row">
+          <label style="display:flex; align-items:flex-start; gap:0.6em; font-weight:400;">
+            <input type="checkbox" required style="margin-top:0.3em;">
+            <span>Ich habe die <a href="datenschutz.html">Datenschutzerklärung</a> zur Kenntnis genommen. *</span>
+          </label>
+        </div>
+        <button class="btn btn-primary" type="submit">Anfrage senden</button>
+        <p class="form-status" role="status" tabindex="-1"></p>
+      </form>
+    </div>
+  </section>
+
+  <section aria-labelledby="calendly-heading">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Termin buchen</span>
+        <h2 id="calendly-heading">Direkt einen Atelierbesuch buchen</h2>
+      </div>
+      <div class="calendly-embed">
+        <p><strong>Platzhalter für Calendly-Einbindung.</strong><br>Es wurde kein öffentlicher Calendly-Link für das Atelier Hendricks gefunden – nicht auffindbar, offene Frage an den Auftraggeber. Sobald ein Calendly-Link vorliegt, ersetzt ein eingebettetes Buchungsformular diesen Platzhalter.</p>
+        <a class="btn btn-secondary" href="#anfrage">Stattdessen Formular nutzen</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="assets/logo/atelier-hendricks_logo.svg" alt="Atelier Hendricks">
+        <p>Malerei, Fotografie und wechselnde Ausstellungen in einer ehemaligen Textilmanufaktur in Konstanz.</p>
+      </div>
+      <div>
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="susanne-hendricks.html">Susanne Hendricks</a></li>
+          <li><a href="rainer-hendricks.html">Rainer Hendricks</a></li>
+          <li><a href="ausstellungen.html">Ausstellungen</a></li>
+          <li><a href="atelier.html">Das Atelier</a></li>
+          <li><a href="presse.html">Presse / Projekte</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Kontakt</h4>
+        <ul>
+          <li><a href="tel:+497531 3613886">+49 7531 3613886</a></li>
+          <li><a href="mailto:art@atelier-hendricks.de">art@atelier-hendricks.de</a></li>
+          <li>Lohnerhofstraße 9<br>78467 Konstanz</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Folgen</h4>
+        <ul>
+          <li><a href="https://www.instagram.com/atelier_hendricks/" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://www.facebook.com/AtelierHendricks/" target="_blank" rel="noopener">Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Atelier Hendricks</span>
+      <span><a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js" defer></script>
+<script src="js/map-consent.js" defer></script>
+</body>
+</html>
