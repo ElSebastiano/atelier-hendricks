@@ -73,6 +73,7 @@
   --space-4: 2.75rem;
   --space-5: 4.5rem;
   --space-6: 7rem;
+  --space-9: 13rem;
 
   --radius: 2px;
   --header-h: 84px;
@@ -419,7 +420,7 @@ p { margin: 0 0 var(--space-2); }
 .hero-entries {
   position: absolute;
   right: var(--space-3);
-  bottom: var(--space-3);
+  bottom: var(--space-9);
   z-index: 6;
   display: flex;
   flex-direction: column;
