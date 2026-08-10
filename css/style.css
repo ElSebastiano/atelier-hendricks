@@ -327,10 +327,10 @@ p { margin: 0 0 var(--space-2); }
 /* ---------- Hero ---------- */
 .hero {
   position: relative;
-  height: 145vh;
-  min-height: 700px;
+  height: 100vh;
+  min-height: 640px;
   overflow: hidden;
-  background: linear-gradient(180deg, var(--c-black) 0%, var(--c-black) 66%, var(--c-bg) 100%);
+  background: var(--c-black);
 }
 .hero-stage {
   position: sticky;
